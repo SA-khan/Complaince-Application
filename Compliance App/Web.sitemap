@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx/#" title="Home"  description="">
+    <siteMapNode url="Default.aspx" title="HOME"  description="Goto Home Page" />
+    <siteMapNode url="Default.aspx?request=upload" title="UPLOAD"  description="Goto Upload Data Page">
+      <siteMapNode url="~/ContentPages/UploadInvestorsData.aspx" title="Upload Investors Data "  description="Goto Investors Upload Page" />
+      <siteMapNode url="~/ContentPages/UploadEUConsolidatedFinancialSanctions.aspx" title="Upload EU Consolidated Financial Sanctions List Data "  description="Goto EU Consolidated Financial Sanctions List Upload Data Page" />
+      <siteMapNode url="~/ContentPages/UploadFIAMostWantedCyberCrimeCircle.aspx" title="Upload FIA Most Wanted Cyber Crime Circle List Data"  description="Goto Insert FIA Most Wanted Cyber Crime Circle Upload Data Page" />
+      <siteMapNode url="~/ContentPages/UploadFIAMostWantedHumanSmugglersAndTraffickers.aspx" title="Upload FIA Most Wanted Human Smugglers And Traffickers List Data"  description="Goto FIA Most Wanted Human Smugglers And Traffickers Upload Data Page" />
+      <siteMapNode url="~/ContentPages/UploadFIAMostWantedTerrorists.aspx" title="Upload FIA Most Wanted Terrorists List Data"  description="Goto FIA Most Wanted Terrorists Upload Data Page" />
+      <siteMapNode url="~/ContentPages/UploadOFACSpeciallyDesignatedNationalsAndBlockedEntities.aspx" title="Upload OFAC Specially Designated Nationals And Blocked Entities List Data"  description="Goto OFAC Specially Designated Nationals And Blocked Entities Upload Data Page" />
+      <siteMapNode url="~/ContentPages/UploadProscribedOrganisationNACTA.aspx" title="Upload Proscribed Organisation NACTA List Data"  description="Goto Proscribed Organisation NACTA Upload Data Page" />
+      <siteMapNode url="~/ContentPages/UploadUNSecurityCouncilConsolidated.aspx" title="Upload UN Security Council Consolidated List Data"  description="Goto UN Security Council Consolidated Upload Data Page" />
+    </siteMapNode>
+    <siteMapNode url="Default.aspx?request=report" title="REPORTS"  description="Goto Reports Page">
+      <siteMapNode url="~/ContentPages/ReportMatchingData.aspx" title="Defaulters Investors List "  description="This page gives data if a unit holder info matched with any UN or FIA Report" />
+      <siteMapNode url="~/ContentPages/ReportInvestorsData.aspx" title="Investors Report "  description="Goto Investors Upload Page" />
+      <siteMapNode url="~/ContentPages/ReportEUConsolidatedFinancialSanctions.aspx" title="EU Consolidated Financial Sanctions Report"  description="Goto EU Consolidated Financial Sanctions List Upload Data Page" />
+      <siteMapNode url="~/ContentPages/ReportFIAMostWantedCyberCrimeCircle.aspx" title="FIA Most Wanted Cyber Crime Circle Report"  description="Goto Insert FIA Most Wanted Cyber Crime Circle Upload Data Page" />
+      <siteMapNode url="~/ContentPages/ReportFIAMostWantedHumanSmugglersAndTraffickers.aspx" title="FIA Most Wanted Human Smugglers And Traffickers Report"  description="Goto FIA Most Wanted Human Smugglers And Traffickers Upload Data Page" />
+      <siteMapNode url="~/ContentPages/ReportFIAMostWantedTerrorists.aspx" title="FIA Most Wanted Terrorists Report"  description="Goto FIA Most Wanted Terrorists Upload Data Page" />
+      <siteMapNode url="~/ContentPages/ReportOFACSpeciallyDesignatedNationalsAndBlockedEntities.aspx" title="OFAC Specially Designated Nationals And Blocked Entities Report"  description="Goto OFAC Specially Designated Nationals And Blocked Entities Upload Data Page" />
+      <siteMapNode url="~/ContentPages/ReportProscribedOrganisationNACTA.aspx" title="Proscribed Organisation NACTA Report"  description="Goto Proscribed Organisation NACTA Upload Data Page" />
+      <siteMapNode url="~/ContentPages/ReportUNSecurityCouncilConsolidated.aspx" title="UN Security Council Consolidated Report"  description="Goto UN Security Council Consolidated Upload Data Page" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

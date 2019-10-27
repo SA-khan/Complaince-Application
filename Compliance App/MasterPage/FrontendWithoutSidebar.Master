@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontendWithoutSidebar.master.cs" Inherits="Compliance_App.MasterPage.FrontendWithoutSidebar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>-</title>
+    <link href="../Styles/styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="PageWrapper" runat="server">
+       <form id="form1" runat="server">
+               <asp:ScriptManager runat="server"></asp:ScriptManager>
+               <header>Al</header>
+               <nav><asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" DynamicEnableDefaultPopOutImage="false" StaticMenuItemStyle-VerticalPadding="5px" DynamicHoverStyle-BackColor="#cc6600" DynamicHoverStyle-Font-Size="14px" DynamicHoverStyle-CssClass="cssDynamicHoverStyle" DynamicHoverStyle-ForeColor="White" Font-Size="14px" DynamicMenuItemStyle-ItemSpacing="20px" DynamicMenuItemStyle-BackColor="#999999" DynamicMenuItemStyle-ForeColor="Black" DynamicMenuItemStyle-HorizontalPadding="7px" DynamicMenuItemStyle-VerticalPadding="7px" ForeColor="Black" StaticMenuItemStyle-HorizontalPadding="25px" DynamicMenuStyle-HorizontalPadding="25" StaticEnableDefaultPopOutImage="false" ></asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+               </nav>
+               <div class="PageContent" runat="server">
+                  <div>
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                     </asp:ContentPlaceHolder>
+                  </div>    
+               </div>
+               <footer></footer>
+       </form>
+    </div>
+</body>
+</html>

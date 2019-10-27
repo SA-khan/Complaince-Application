@@ -1,0 +1,43 @@
+﻿* {
+    font-family: Tahoma;
+}
+.PageWrapper {
+    width:844px;
+    margin:auto;
+}
+header {
+    min-height:75px;
+    background-color:gray;
+}
+nav {
+    min-height: 30px;
+    background-color: lightgray;
+}
+.PageContent {
+    min-height:610px;
+    background-color:white;
+}
+footer {
+    min-height: 25px;
+    background-color: gray;
+}
+aside {
+    width: 194px;
+    float: left;
+    min-height: 610px;
+    background-color: lightsalmon;
+}
+.MainContent {
+    float:left;
+    width:650px;
+}
+body {
+    background-image: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cssDynamicHoverStyle {
+    padding:3px;
+    margin:2px;
+}
